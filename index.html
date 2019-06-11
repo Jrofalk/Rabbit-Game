@@ -11,39 +11,46 @@
 
 <body class = 'body'>
 
-  <nav class="navbar navbar-light bg-light">
-    <span class="navbar-text">Rabbit</span>
-  </nav>
-
   <div class = 'container'>
+    
+    <div class='row'>
+        <div class='col-md-12'>
+            <div class='text-center'>
+              <h1>Rabbits</h1>
+            </div>
+        </div>
+    </div>
 
     <div class = 'row'>
-      <div class = 'col-md-4'>
-          <div class="dropdown">
-             <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Instructions
-             <span class="caret"></span>
-             </button>
-             <div class='hidden'>
-               <p>You will be given a target number at the start of the game.</p>
-               <p>There are four rabbits. By clicking on a rabbit you will add a specific amount of points to your total score.</p>
-               <p>You win the game by matching your total score to the target. You lose the game if your total score goes above target.</p>
-               <p>The value of each rabbit is hidden from you until you click on it.</p>
-               <p>The value of each rabbit changes when the game starts.</p>
-             </div>
-          </div>
+      <div class = 'col-md-12'>
+         <div class="dropdown">
+           <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+             Instructions
+            <span class="caret"></span>
+            </button>
+              <div id='hidden'>
+                <p>You will be given a target number at the start of the game.</p>
+                <p>There are four rabbits. By clicking on a rabbit you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to the target. You lose the game if your total score goes above the target.</p>
+                <p>The value of each rabbit is hidden from you until you click on it.</p>
+                <p>The value of each rabbit changes when the game starts.</p>
+              </div>
+         </div>
+      </div>
     </div>
+
+    <div class = "values">
 
     <div class='row'>
         <div class='col-md-4'>
             <h1 id='target-number'></h1>
         </div>
         <div class='col-md-4'>
-            <h1>Wins:</h1>
+            <h1>Wins</h1>
             <h1 id='total-wins'></h1>
         </div>
         <div class='col-md-4'>
-            <h1>Losses:</h1>
+            <h1>Losses</h1>
             <h1 id='total-losses'></h1>
         </div>
     </div>
@@ -62,15 +69,20 @@
           <img src="assets/images/RoundRabbits.jpg" id='button-four' class="img-fluid" alt="Rabbits">
         </div>
     </div>
+                
+              
 
     <div class='row'>
         <div class='col-md-4'>
-            <h1>Score:</h1>
-            <h1 id='score'></h1>
+            <h1>Score</h1>
+            <h1 id='score'>0</h1>
         </div>
     </div>
 
-  </div>
+</div>
+    
+
+    </div>
 
 
 

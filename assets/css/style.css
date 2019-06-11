@@ -1,13 +1,19 @@
 .body{
     font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond;
+    color: darkslategray;
     background-image: url('../images/mountain.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.hidden{
-    display: none;
+.dropdown{
+    margin-top: 15px;
+}
+ 
+.values{
+    position: absolute;
+    margin-top: 15px;
 }
 
 
@@ -19,5 +25,13 @@
   border-bottom-left-radius: 50% 50%;
 }
     
-    
+#hidden{
+    display: none;
+    color: darkslategray;
+}
+
+#dropdownMenu1{
+    color: darkslategray;
+}
+
 

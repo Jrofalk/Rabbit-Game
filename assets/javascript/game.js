@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   //Generates random target number to be displayed
   var randomTarget = Math.floor(Math.random() * 102) + 19;
-  $('#target-number').html('<h1>Target:</h1> ' + randomTarget);
+  $('#target-number').html('<h1>Target</h1> ' + randomTarget);
   //Generates random value for each rabbit
   var rabbitOne = Math.floor(Math.random() * 12) + 1;
   var rabbitTwo = Math.floor(Math.random() * 12) + 1;
@@ -15,7 +15,7 @@ $(document).ready(function() {
   //Function to reset game
   function restart(){
     randomTarget = Math.floor(Math.random() * 102) + 19;
-    $('#target-number').html('<h1>Target:</h1> ' + randomTarget);
+    $('#target-number').html('<h1>Target</h1> ' + randomTarget);
     rabbitOne = Math.floor(Math.random() * 12) + 1;
     rabbitTwo = Math.floor(Math.random() * 12) + 1;
     rabbitThree = Math.floor(Math.random() * 12) + 1;
@@ -82,10 +82,8 @@ $(document).ready(function() {
   })
   //Displays and hides instructions
   $('#dropdownMenu1').on('click', function(){
-      $('.hidden').toggle();
+      $('#hidden').toggle();
   });
-
-
 
 
 });
