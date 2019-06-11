@@ -1,0 +1,23 @@
+.body{
+    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond;
+    background-image: url('../images/mountain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.img-fluid{   
+  width: 150px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+    
+    
+

@@ -3,26 +3,35 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Crystal Collector</title>
+  <title>Rabbit</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href='assets/css/style.css'>
 </head>
 
-<body>
+<body class = 'body'>
 
   <nav class="navbar navbar-light bg-light">
-    <span class="navbar-text">
-        Crystal Collector
-    </span>
+    <span class="navbar-text">Rabbit</span>
   </nav>
 
   <div class = 'container'>
 
     <div class = 'row'>
-      <div class = 'col-md-6'>
-          <h1>Instructions:</h1>
-      </div>
+      <div class = 'col-md-4'>
+          <div class="dropdown">
+             <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Instructions
+             <span class="caret"></span>
+             </button>
+             <div class='hidden'>
+               <p>You will be given a target number at the start of the game.</p>
+               <p>There are four rabbits. By clicking on a rabbit you will add a specific amount of points to your total score.</p>
+               <p>You win the game by matching your total score to the target. You lose the game if your total score goes above target.</p>
+               <p>The value of each rabbit is hidden from you until you click on it.</p>
+               <p>The value of each rabbit changes when the game starts.</p>
+             </div>
+          </div>
     </div>
 
     <div class='row'>
@@ -41,16 +50,16 @@
 
     <div class='row'>
         <div class='col-md-2'>
-          <img src="assets/images/rabbits.jpg" id='button-one' class="img-fluid" alt="Rabbits">
+          <img src="assets/images/RoundRabbits.jpg" id='button-one' class="img-fluid" alt="Rabbits">
         </div>
         <div class='col-md-2'>
-          <img src="assets/images/rabbits.jpg" id='button-two' class="img-fluid" alt="Rabbits">
+          <img src="assets/images/RoundRabbits.jpg" id='button-two' class="img-fluid" alt="Rabbits">
         </div>
         <div class='col-md-2'>
-          <img src="assets/images/rabbits.jpg" id='button-three' class="img-fluid" alt="Rabbits">
+          <img src="assets/images/RoundRabbits.jpg" id='button-three' class="img-fluid" alt="Rabbits">
         </div>
         <div class='col-md-2'>
-          <img src="assets/images/rabbits.jpg" id='button-four' class="img-fluid" alt="Rabbits">
+          <img src="assets/images/RoundRabbits.jpg" id='button-four' class="img-fluid" alt="Rabbits">
         </div>
     </div>
 
@@ -62,6 +71,10 @@
     </div>
 
   </div>
+
+
+
+  
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src='assets/javascript/game.js'></script>
