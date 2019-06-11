@@ -2,98 +2,98 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Rabbits</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href='assets/css/style.css'>
+    <meta charset="UTF-8">
+    <title>Rabbits</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href='assets/css/style.css'>
 </head>
 
-<body class = 'body'>
+<body class='body'>
 
-  <div class = 'container'>
-    
-    <div class='row'>
-        <div class='col-md-12'>
-            <div class='text-center'>
-              <h1>Rabbits</h1>
+    <div class='container'>
+
+        <div class='row'>
+            <div class='col-md-12'>
+                <div class='text-center'>
+                    <h1>Rabbits</h1>
+                </div>
             </div>
         </div>
+
+        <div class='row'>
+            <div class='col-md-12'>
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Instructions
+                        <span class="caret"></span>
+                    </button>
+                    <div id='hidden'>
+                        <p>You will be given a target number at the start of the game.</p>
+                        <p>There are four rabbits. By clicking on a rabbit you will add a specific amount of points to
+                            your total score.</p>
+                        <p>You win the game by matching your total score to the target. You lose the game if your total
+                            score goes above the target.</p>
+                        <p>The value of each rabbit is hidden from you until you click on it.</p>
+                        <p>The value of each rabbit changes when the game starts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="values">
+
+            <div class='row'>
+                <div class='col-md-4'>
+                    <h1 id='target-number'></h1>
+                </div>
+                <div class='col-md-4'>
+                    <h1>Wins</h1>
+                    <h1 id='total-wins'></h1>
+                </div>
+                <div class='col-md-4'>
+                    <h1>Losses</h1>
+                    <h1 id='total-losses'></h1>
+                </div>
+            </div>
+
+            <div class='row'>
+                <div class='col-md-2'>
+                    <img src="assets/images/RoundRabbits.jpg" id='button-one' class="img-fluid" alt="Rabbits">
+                </div>
+                <div class='col-md-2'>
+                    <img src="assets/images/RoundRabbits.jpg" id='button-two' class="img-fluid" alt="Rabbits">
+                </div>
+                <div class='col-md-2'>
+                    <img src="assets/images/RoundRabbits.jpg" id='button-three' class="img-fluid" alt="Rabbits">
+                </div>
+                <div class='col-md-2'>
+                    <img src="assets/images/RoundRabbits.jpg" id='button-four' class="img-fluid" alt="Rabbits">
+                </div>
+            </div>
+
+
+
+            <div class='row'>
+                <div class='col-md-4'>
+                    <h1>Score</h1>
+                    <h1 id='score'>0</h1>
+                </div>
+            </div>
+
+        </div>
+
+
     </div>
 
-    <div class = 'row'>
-      <div class = 'col-md-12'>
-         <div class="dropdown">
-           <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-             Instructions
-            <span class="caret"></span>
-            </button>
-              <div id='hidden'>
-                <p>You will be given a target number at the start of the game.</p>
-                <p>There are four rabbits. By clicking on a rabbit you will add a specific amount of points to your total score.</p>
-                <p>You win the game by matching your total score to the target. You lose the game if your total score goes above the target.</p>
-                <p>The value of each rabbit is hidden from you until you click on it.</p>
-                <p>The value of each rabbit changes when the game starts.</p>
-              </div>
-         </div>
-      </div>
-    </div>
-
-    <div class = "values">
-
-    <div class='row'>
-        <div class='col-md-4'>
-            <h1 id='target-number'></h1>
-        </div>
-        <div class='col-md-4'>
-            <h1>Wins</h1>
-            <h1 id='total-wins'></h1>
-        </div>
-        <div class='col-md-4'>
-            <h1>Losses</h1>
-            <h1 id='total-losses'></h1>
-        </div>
-    </div>
-
-    <div class='row'>
-        <div class='col-md-2'>
-          <img src="assets/images/RoundRabbits.jpg" id='button-one' class="img-fluid" alt="Rabbits">
-        </div>
-        <div class='col-md-2'>
-          <img src="assets/images/RoundRabbits.jpg" id='button-two' class="img-fluid" alt="Rabbits">
-        </div>
-        <div class='col-md-2'>
-          <img src="assets/images/RoundRabbits.jpg" id='button-three' class="img-fluid" alt="Rabbits">
-        </div>
-        <div class='col-md-2'>
-          <img src="assets/images/RoundRabbits.jpg" id='button-four' class="img-fluid" alt="Rabbits">
-        </div>
-    </div>
-                
-              
-
-    <div class='row'>
-        <div class='col-md-4'>
-            <h1>Score</h1>
-            <h1 id='score'>0</h1>
-        </div>
-    </div>
-
-</div>
-    
-
-    </div>
 
 
 
-  
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src='assets/javascript/game.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='assets/javascript/game.js'></script>
 
 </body>
 
 </html>
-
-
-
