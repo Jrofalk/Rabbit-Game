@@ -35,7 +35,6 @@ $(document).ready(function() {
     $('#total-losses').text(losses);
     restart();
   }
-
   //Allows rabbit images to be clicked and updates values
   $('#button-one').on ('click', function(){
     score = score + rabbitOne;
