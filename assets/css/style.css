@@ -32,7 +32,23 @@
 .img-fluid:hover{
     opacity: 0.5;
 }
-    
+
+#button-one{
+    border:5px solid gainsboro;
+}
+
+#button-two{
+    border:5px solid silver;
+}
+
+#button-three{
+    border:5px solid lightslategray;
+}
+
+#button-four{
+    border:5px solid dimgray;
+}
+
 #hidden{
     display: none;
     color: darkslategray;
