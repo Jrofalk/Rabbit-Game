@@ -1,5 +1,8 @@
 # Rabbit Game
 
+## Deployed Link:
+https://jrofalk.github.io/Rabbit-Game/
+
 <h1>Note:</h1>
 <p>This is a version of the "Crystal Collector" game. However, the theme has been changed to rabbits.</p>
 
