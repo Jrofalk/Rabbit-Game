@@ -1,4 +1,4 @@
-# Rabbit Game
+# Rabbits
 
 ## Deployed Link:
 https://jrofalk.github.io/Rabbit-Game/
